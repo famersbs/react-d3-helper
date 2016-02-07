@@ -1,6 +1,6 @@
 {
   "name": "react-d3-helper",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This package is help to make react.js component with d3.js",
   "main": "index.js",
   "scripts": {
