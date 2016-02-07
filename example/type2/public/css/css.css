@@ -1,0 +1,101 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  background-color: #eee;
+  margin: 0px;
+}
+
+a {
+  color: #dd0441;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #8a0027;
+  }
+}
+
+.App {
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  background-color: #fff;
+}
+
+
+.d3 {
+  font: 10px sans-serif;
+  border: 1px solid #555;
+}
+
+.d3-point {
+  fill: #2B8FF3;
+  stroke: #1D5FA2;
+  stroke-width: 2;
+}
+
+.d3-tooltip-rect {
+  fill: #fff;
+  stroke: #555;
+  stroke-width: 1;
+}
+
+.d3-tooltip-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Stats {
+  margin: 20px 0;
+  padding: 8px;
+  border: 1px solid #555;
+}
+
+.Stats-item {
+  margin: 8px 0;
+}
+
+.Chart {}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.tree_link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.progress-bar {
+  fill: #00f;
+  stroke: steelblue;
+  stroke-width: 3px;
+  width: 5px;
+  background-color: #f00;
+}
+
+/* Navi */
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
